@@ -65,15 +65,18 @@
       padding: 50px 20px;
       border-bottom: 1px solid #ddd;
     }
+    
     .hero-image {
-      width: auto;
-      max-height: 500px;
-      height: 100%;
-      margin: 20px auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  }
+
     .hero-image:hover {
       transform: scale(1.02);
       box-shadow: 0 6px 10px rgba(0,0,0,0.15);
