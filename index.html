@@ -10,7 +10,9 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: sans-serif;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
       color: #333;
       text-align: center;
       max-width: 800px;
@@ -25,27 +27,31 @@
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .headline {
-      font-size: 2em;
+      font-size: 2.5em;
       margin-bottom: 10px;
-      color: #2c3e50;
+      color: #1a1a1a; /* Darker for stronger contrast */
+      font-weight: bold;
     }
     .subheadline {
-      font-size: 1.2em;
+      font-size: 1.4em;
       margin-bottom: 20px;
       color: #555;
     }
     .cta-btn {
-      padding: 12px 25px;
-      background: #e67e22;
+      padding: 14px 30px;
+      background: #ff6600; /* More vibrant orange */
       color: #fff;
       text-decoration: none;
       border-radius: 5px;
       display: inline-block;
       margin-top: 20px;
-      transition: background 0.3s ease;
+      font-size: 1.2em;
+      font-weight: bold;
+      transition: background 0.3s ease, transform 0.3s ease;
     }
     .cta-btn:hover {
-      background: #d35400;
+      background: #e65c00;
+      transform: scale(1.05);
     }
     ul {
       list-style: none;
@@ -54,6 +60,7 @@
     ul li {
       text-align: left;
       margin: 10px 0;
+      font-size: 1.1em;
     }
     .highlight {
       color: #c0392b;
@@ -87,10 +94,10 @@
     /* Responsive adjustments */
     @media (max-width: 600px) {
       .headline {
-        font-size: 1.6em;
+        font-size: 2em;
       }
       .subheadline {
-        font-size: 1em;
+        font-size: 1.2em;
       }
     }
   </style>
@@ -148,7 +155,6 @@
   <p>
     Hubungi <strong>081231036661</strong> untuk informasi lebih lanjut dan pastikan Anda menjadi bagian dari transformasi yang telah mengubah hidup banyak orang.
   </p>
-  <!-- Updated link to WhatsApp -->
   <a href="https://wa.me/6281231036661" class="cta-btn">Dapatkan Informasi Gratis</a>
 </div>
 
